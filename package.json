@@ -1,0 +1,26 @@
+{
+  "name": "curssv2022-teme",
+  "version": "1.0.0",
+  "description": "->TEMA 1",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianna14/CursSV2022-teme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianna14/CursSV2022-teme/issues"
+  },
+  "homepage": "https://github.com/dianna14/CursSV2022-teme#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    border-bottom: 1px solid rgb(240, 8, 8);
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span {
+    color: rgb(151, 16, 16);
+    font-size: 2.6rem;
+}
+
+.blog-heading h3 {
+    font-size: 2.5rem;
+    color: rgb(95, 42, 42);
+    font-weight: 150;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 400px;
+    background-color: antiquewhite;
+    border: 5px solid rgb(223, 106, 106);
+    margin: 40px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.blog-button {
+    margin: 0px 0px 10px 10px;
+    box-shadow: inset 0px 1px 0px 0px #e5dada;
+    background: linear-gradient(to bottom, #dcb1b1 10%, #8c4b4b 100%);
+    border: 1px solid #fe0404;
+    cursor: pointer;
+    color: #3a0303;
+    font-size: 13px;
+    padding: 6px 24px;
+}
